@@ -12,4 +12,4 @@ For example, it's now impossible to make changes to the runtime. Instead, you ma
 
 Here is the one of the example:
 
-<img src="image-4.png" alt="build-release-run">
+<img src="images\image-4.png" alt="build-release-run">
