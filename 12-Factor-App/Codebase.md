@@ -15,7 +15,7 @@ For example:
                         .                   .               .               .
             Deploys     Production          Staging         Dev-1           Dev-2
 
-<img src="image.png" alt="codebase-Deploys">
+<img src="images\image.png" alt="codebase-Deploys">
 
 
 Here is another example of having a codebase help resolve the issue. This is very common practice on DevOps now.

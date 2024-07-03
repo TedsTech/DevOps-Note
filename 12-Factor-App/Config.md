@@ -16,4 +16,4 @@ For example, you do not want sensitive information like database credentials or 
 
 Here the example of having config on .env file.
 
-<img src="image-3.png" alt="config">
+<img src="images\image-3.png" alt="config">

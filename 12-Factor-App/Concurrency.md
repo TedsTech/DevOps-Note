@@ -8,8 +8,8 @@ I'm just getting this from the 12factor.net foe my referenace.
 
 Here is the example:
 
-<img src="image-1.png" alt="process type">
+<img src="images\image-1.png" alt="process type">
 
 Here is the another good example of concurrency and parallelism:
 
-<img src="image-2.png" alt="process type">
+<img src="images\image-2.png" alt="process type">

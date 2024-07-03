@@ -10,4 +10,4 @@ For example, with a retail website, in the case of failure of a process of order
 
 Here is the one of the example:
 
-<img src="image-5.png" alt="codebase-Deploys">
+<img src="images\image-5.png" alt="codebase-Deploys">
