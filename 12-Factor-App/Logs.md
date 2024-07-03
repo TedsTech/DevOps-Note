@@ -36,6 +36,6 @@ The event stream is handled by the deployment environment, enabling:
 
     Active alerting.
 
-    Here is the example of logs streams:
+Here is the example of logs streams:
 
   <img src="images\image-8.png" alt="logs">
