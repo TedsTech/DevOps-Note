@@ -8,24 +8,35 @@ echo Hi
  ````bash
 Hi  
  ````
-
-List Files & Folders
-
-    ls -------> File.txt, my_dir1, file2.conf
-
-Change directory
-
-    cd my_dir1
-
-Present Working Directory
-
-    pwd -------> /home/my_dir1
-
-Make Directory
-
-    mkdir new_directory
-
-Multiple commands
-
-    cd new_directory; mkdir www; pwd   --------> /home/my_dir1/new_directory
-
+## List Files & Folders
+````bash
+    ls
+````
+ Output
+ ````bash
+ File.txt, my_dir1, file2.conf
+````
+## Change directory
+````bash
+cd my_dir1
+````
+## Present Working Directory
+````bash
+pwd
+````
+Output
+````bash
+/home/my_dir1
+````
+## Make Directory
+````bash
+mkdir new_directory
+````
+## Multiple commands
+````bash
+cd new_directory; mkdir www; pwd
+````
+Output
+````bash
+/home/my_dir1/new_directory
+````
