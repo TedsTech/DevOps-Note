@@ -1,8 +1,11 @@
-Basic Commands
+# Basic Commands
 
-Print to screen
+## Print to screen
 
-    echo Hi  ----- > Hi
+````bash
+echo Hi  
+ Hi
+ ````
 
 List Files & Folders
 
