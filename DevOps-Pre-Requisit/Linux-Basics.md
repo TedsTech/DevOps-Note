@@ -10,7 +10,7 @@ Hi
  ````
 ## List Files & Folders
 ````bash
-    ls
+ls
 ````
  Output
  ````bash
