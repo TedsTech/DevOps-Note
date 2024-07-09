@@ -66,7 +66,7 @@ touch new_file.txt
 ````bash
 cat > new_file.txt
 This is some simple contents
-and press CTLR + D when your done
+and press CTLR + D when you're done
 ````
 ## View contents of file
 ````bash
@@ -84,3 +84,57 @@ mv new_file.txt sample_file.txt
 ````bash
 rm new_file.txt
 ````
+
+# User Account
+
+````bash
+whoami
+````
+
+````bash
+id
+````
+
+````bash
+su David
+````
+
+````bash
+ssh david@192.168.1.2
+````
+
+````bash
+ls /root
+````
+
+````bash
+sudo ls /root
+````
+
+# Download Files
+
+````bash
+curl http://www.some-site.com/some-file.txt -0
+````
+
+````bash
+wget http://www.some-site.com/some-file.txt -0 some-file.txt
+````
+
+# Check OS Version
+
+````bash
+ls /etc/*release*
+````
+
+````bash
+cat /etc/*release*
+````
+
+
+
+
+
+
+
+
