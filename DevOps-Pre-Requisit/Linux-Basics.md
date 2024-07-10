@@ -87,26 +87,27 @@ rm new_file.txt
 
 # User Account
 
+## Display the current user
 ````bash
 whoami
 ````
-
+## Find user & group name
 ````bash
 id
 ````
-
+## Switch user
 ````bash
 su David
 ````
-
+## Connect to a remote server
 ````bash
 ssh david@192.168.1.2
 ````
-
+## Root directory
 ````bash
 ls /root
 ````
-
+## Directory with root permission
 ````bash
 sudo ls /root
 ````
