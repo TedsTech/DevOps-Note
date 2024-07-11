@@ -132,10 +132,103 @@ ls /etc/*release*
 cat /etc/*release*
 ````
 
+# Package Managers
 
+## RPM (Red Hat Package Manager)
 
+Install Package
+````bash
+rpm -i telnet.rpm
+````
 
+Uninstall Package
+````bash
+rpm -e telnet
+````
 
+Query Package
+````bash
+rpm -q telnet
+````
 
+## YUM
 
+Install Package
+````bash
+yum install ansible
+````
 
+YUM Repos
+````bash
+yum repolist
+````
+
+Show YUM file
+````bash
+ls /etc/yum.repos.d/
+````
+
+YUM list for specific package
+````bash
+yum list ansible
+````
+
+To remove and installed package
+````bash
+yum remove ansible
+````
+
+To show Duplicate option
+````bash
+yum --showduplicates list ansible
+````
+
+To install a specific version
+````bash
+yum install ansible-2.4.2.0
+````
+
+# Services
+
+## Start HTTPD service
+````bash
+service httpd start
+````
+or 
+````bash
+systemctl start httpd
+````
+## Stop HTTPD Service
+````bash
+systemctl stop httpd
+````
+## Check HTTPD Service Status
+````bash
+systemctl status httpd
+````
+## Configure HTTPD to start at startup
+````bash
+systemctl enable httpd
+````
+## Configure HTTPD to not start at startup
+````bash
+systemctl disable httpd
+````
+
+# Example of some Exec Service
+
+```
+thor@host01 ~$ sudo systemctl cat app.service
+# /usr/lib/systemd/system/app.service
+[Unit]
+Description=My python web application
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/code/my_app.py
+ExecStartPre=/bin/bash /opt/code/configure_db.sh
+ExecStartPost=/bin/bash /opt/code/email_status.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
