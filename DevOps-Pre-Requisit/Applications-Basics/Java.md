@@ -55,7 +55,7 @@ thor@app01 /opt/jdk-20/bin$ export PATH=$PATH:/opt/jdk-20/bin
 
 ## ANT
 
-<img src="12-Factor-App\images\image-9.PNG" alt="Java Build">
+<img src="image-9.PNG" alt="Java Build">
 
 
 We have created MyClass.java file inside /opt/app directory. View it if you like using the command cat MyClass.java. Please compile it.
